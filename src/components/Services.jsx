@@ -10,7 +10,7 @@ const Services = () => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   return (
-    <section id="services" className="bg-white border-b py-8">
+    <section id="services" className="bg-white py-8">
       <Modal
         isOpen={isModalOpen}
         onClose={() => setModalOpen(false)}
