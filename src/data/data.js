@@ -37,7 +37,7 @@ Alta Disponibilidad: Garantía de funcionamiento continuo y redundancia en los s
         `
     },
     {
-        name: "Soporte Tecnico Integral",
+        name: "Soporte Técnico Integral",
         slug:"soporte",
         shortDescription:"Ofrecemos el mejor equipo de expertos para tus problemas técnicos.",
         description: `Nuestro servicio se adapta a las necesidades únicas de cada cliente, garantizando que sus sistemas y operaciones se mantengan funcionando sin interrupciones. Al ofrecer una solución personalizada, alineada con los requisitos específicos de cada organización, reducimos significativamente los riesgos operativos y optimizamos la infraestructura tecnológica. Esto permite que las empresas se enfoquen en sus objetivos estratégicos, sin tener que preocuparse por fallos o tiempos de inactividad inesperados.
@@ -96,7 +96,7 @@ Resultado Deseado en Cuanto a Garantías: "Un sitio web seguro, confiable y adap
         owner:"Service Owner - Software Solutions",
         packages: [
             {
-                name:"Basico",
+                name:"Básico",
                 includes:["Diseño de sitio web estándar con hasta 5 páginas","Optimización básica para dispositivos móviles",
                     "Integración inicial de SEO y analíticas","Soporte técnico estándar"
                 ],
