@@ -14,7 +14,7 @@ const Main = () => {
           <p className="leading-normal text-xl mb-8">
             Ofrecemos soluciones tecnológicas para pequeñas y medianas empresas que buscan crecer.
           </p>
-          <Button name='Contáctanos' link="#services" className='text-[1.5rem] z-40'/>
+          <Button name='Contáctanos' link="#contact" className='text-[1.5rem] z-40'/>
         </div>
         <div className="w-full md:w-3/5 py-6 text-center flex justify-end">
           <img className="w-full md:w-4/5 " src={hero} />
