@@ -82,16 +82,47 @@ Recuperación ante Desastres: Plan de acción para restaurar los sistemas y dato
         name: "Desarrollo Web",
         slug:"web",
         shortDescription:"¡Ten presencia en la web! Te ayudamos a alcanzar clientes con un sitio web.",
-        description: "",
+        description: `El servicio de Desarrollo Web incluye el diseño, desarrollo, implementación y optimización de sitios y aplicaciones web personalizados. Nos especializamos en crear soluciones adaptadas a las necesidades específicas de cada cliente, con tecnologías modernas e interfaces intuitivas que maximizan la experiencia del usuario.
+Utilidad: Este servicio permite a las empresas tener una presencia digital única y optimizada para atraer clientes, mejorar la interacción con usuarios, y gestionar sus procesos digitales con mayor eficiencia.
+Garantía: Soluciones web robustas, seguras y de alta disponibilidad, diseñadas para garantizar tiempos de carga rápidos, compatibilidad móvil y escalabilidad para futuras necesidades.
+
+Mejora de la presencia digital de las empresas.
+Incremento en la captación de clientes mediante plataformas modernas y atractivas.
+Automatización de procesos internos y externos a través de soluciones web personalizadas.
+
+Resultado Deseado en Cuanto a Utilidad: "Las empresas pueden ofrecer servicios en línea y mejorar la interacción con sus clientes sin limitaciones de lugar o dispositivo."
+Resultado Deseado en Cuanto a Garantías: "Un sitio web seguro, confiable y adaptado a las necesidades de la empresa, disponible para usuarios en cualquier momento y lugar."
+        `,
         owner:"Service Owner - Software Solutions",
         packages: [
             {
                 name:"Basico",
-                includes:[],
-                price:0
+                includes:["Diseño de sitio web estándar con hasta 5 páginas","Optimización básica para dispositivos móviles",
+                    "Integración inicial de SEO y analíticas","Soporte técnico estándar"
+                ],
+                price:2000
+            },
+            {
+                name:"Avanzado",
+                includes:["Todo lo incluido en el Plan Básico","Funcionalidades interactivas como formularios dinámicos y galerías multimedia",
+                    "Personalización avanzada del diseño","Integración con herramientas de marketing y CRM",
+                    "Monitoreo de rendimiento y soporte técnico 24/7"
+                ],
+                price:4000
+            },
+            {
+                name:"Enterprise",
+                includes:["Todo lo incluido en el Plan Avanzado","Desarrollo de aplicaciones web personalizadas",
+                    "Soluciones avanzadas de e-commerce","Implementación de inteligencia artificial", 
+                    "Análisis de datos para optimización de la experiencia del usuario", "Consultoría técnica y soporte premium"
+                ],
+                price:"Cotización"
             }
         ],
-        glossary:""
+        glossary:`SEO (Search Engine Optimization): Prácticas para mejorar la visibilidad del sitio web en buscadores.
+CRM (Customer Relationship Management): Herramientas para gestionar relaciones y datos de clientes.
+E-commerce: Comercio electrónico, habilitación de tiendas en línea.
+Alta Disponibilidad: Soluciones diseñadas para mantener el funcionamiento continuo incluso en escenarios de alta demanda o fallos técnicos.`
     },
     {
         name: "Datos al Alcance",

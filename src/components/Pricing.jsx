@@ -16,12 +16,12 @@ const Pricing = ({ packages }) => {
               return (
                 <div className={`flex flex-col w-5/6 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4 ${index == 1 ? "lg:w-1/3 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10":"lg:w-1/4"}`}>
                   <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-                    <div className="p-8 text-2xl font-bold text-center border-b-4">
+                    <div className="p-8 text-xl font-bold text-center border-b-4">
                       {pack.name}
                     </div>
                     <ul className="w-full text-center text-sm">
                       {pack.includes.map((description) => (
-                        <li className="border-b py-2 text-sm">{description}</li>
+                        <li className="border-b py-2 text-sm mx-3">{description}</li>
                       ))}
                     </ul>
                   </div>

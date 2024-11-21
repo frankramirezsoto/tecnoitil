@@ -16,19 +16,19 @@ const Services = () => {
         onClose={() => setModalOpen(false)}
         title={selectedService && selectedService.name}
       >
-        <div className="w-full grid grid-cols-1 md:grid-cols-7">
+        <div className="w-full grid grid-cols-1 xl:grid-cols-7">
             <div className="col-span-3">
                 <div>
                     <h3 className="font-semibold mb-4">Propietario del servicio: <span className="font-medium">{selectedService && selectedService.owner}</span> </h3>
                     <h3 className="font-semibold">Descripción del Servicio:</h3>
-                    <p className="" style={{ whiteSpace: "pre-wrap" }}>
+                    <p className="text-sm" style={{ whiteSpace: "pre-wrap" }}>
                         {selectedService && selectedService.description}
                     </p>
                     <h3 className="font-semibold text-sm text-gray-400">Glosario:</h3>
                     <p className="text-sm text-gray-400" style={{ whiteSpace: "pre-wrap" }}>
                         {selectedService && selectedService.glossary}
                     </p>
-                    <h3 className="font-semibold mb-5">¿Cómo obtenerlo?</h3>
+                    <h3 className="font-semibold my-5">¿Cómo obtenerlo?</h3>
                     <Button name="Contáctanos" link="#contact" onClick={()=>setModalOpen(false)}/>
                 </div>
             </div>
