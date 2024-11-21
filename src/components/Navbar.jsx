@@ -4,7 +4,7 @@ import Button from './Button'
 const Navbar = () => {
   return (
 
-    <nav id="header" className="fixed w-full z-30 top-0 bg-slate-800 text-gray-200">
+    <nav id="header" className="fixed w-full z-50 top-0 bg-slate-800 text-gray-200">
       <div className="w-full container mx-auto flex items-center justify-between mt-0 py-5">
         <div>
             <h1 className='text-2xl font-extrabold text-pink-600'>TecnoITIL</h1>
